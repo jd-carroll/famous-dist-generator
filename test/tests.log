@@ -1,0 +1,1361 @@
+not ok test/bin.js ..................................... 8/29
+    Command: "c:\dev\nodejs\node.exe bin.js"
+    TAP version 13
+    ok 1 No error returned.
+    ok 2 stderr should be empty string
+    not ok 3 Printed success message.
+      ---
+        operator: equal
+        expected: 
+          "'Successfully built standalone famous for reference 6b2ad41b3c024a298d778e6344383d846ae7fa98\\n'": 
+        actual:   
+          "''": 
+      ...
+    not ok 4 famous.js exists at destination
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    ok 5 No error returned.
+    ok 6 stderr should be empty string
+    not ok 7 Printed success message.
+      ---
+        operator: equal
+        expected: 'Successfully built RequireJS famous for reference 0.2.1\n'
+        actual:   ''
+      ...
+    not ok 8 famous.js exists at destination
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    ok 9 No error returned.
+    ok 10 stderr should be empty string
+    not ok 11 Printed success message.
+      ---
+        operator: equal
+        expected: 'Successfully built stylesheet for famous for reference 0.2.1\n'
+        actual:   ''
+      ...
+    not ok 12 famous.css exists at destination
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    ok 13 No error returned.
+    ok 14 stderr should be empty string
+    not ok 15 Printed success message.
+      ---
+        operator: equal
+        expected: 'Successfully built CommonJS famous for reference 0.2.1\n'
+        actual:   ''
+      ...
+    not ok 16 Top level file exists: core
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 17 Top level file exists: index.js
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 18 Top level file exists: events
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 19 Top level file exists: inputs
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 20 Top level file exists: math
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 21 Top level file exists: modifiers
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 22 Top level file exists: package.json
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 23 Top level file exists: physics
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 24 Top level file exists: surfaces
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 25 Top level file exists: transitions
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 26 Top level file exists: utilities
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 27 Top level file exists: views
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 28 Top level file exists: widgets
+      ---
+        operator: ok
+        expected: true
+        actual:   false
+      ...
+    not ok 29 test/bin.js
+      ---
+        exit:    1
+        command: |
+          "c:\dev\nodejs\node.exe bin.js"
+      ...
+    
+    1..29
+    # tests 29
+    # pass  8
+    # fail  21
+    
+not ok test/test.js .................................. 20/217
+    Command: "c:\dev\nodejs\node.exe test.js"
+    TAP version 13
+    ok 1 No error returned.
+    ok 2 fetchFamous returned object
+    not ok 3 core/Context exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 4 core/ElementAllocator exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 5 core/Engine exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 6 core/Entity exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 7 core/EventEmitter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 8 core/EventHandler exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 9 core/Group exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 10 core/Modifier exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 11 core/OptionsManager exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 12 core/RenderNode exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 13 core/Scene exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 14 core/SpecParser exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 15 core/Surface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 16 core/Transform exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 17 core/View exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 18 core/ViewSequence exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 19 events/EventArbiter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 20 events/EventFilter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 21 events/EventMapper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 22 inputs/Accumulator exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 23 inputs/DesktopEmulationMode exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 24 inputs/FastClick exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 25 inputs/GenericSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 26 inputs/MouseSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 27 inputs/PinchSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 28 inputs/RotateSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 29 inputs/ScaleSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 30 inputs/ScrollSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 31 inputs/TouchSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 32 inputs/TouchTracker exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 33 inputs/TwoFingerSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 34 math/Matrix exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 35 math/Quaternion exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 36 math/Random exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 37 math/Utilities exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 38 math/Vector exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 39 modifiers/Draggable exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 40 modifiers/Fader exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 41 modifiers/ModifierChain exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 42 modifiers/StateModifier exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 43 physics/PhysicsEngine exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 44 physics/bodies/Body exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 45 physics/bodies/Circle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 46 physics/bodies/Particle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 47 physics/bodies/Rectangle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 48 physics/constraints/Collision exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 49 physics/constraints/Constraint exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 50 physics/constraints/Curve exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 51 physics/constraints/Distance exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 52 physics/constraints/Snap exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 53 physics/constraints/Surface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 54 physics/constraints/Wall exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 55 physics/constraints/Walls exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 56 physics/forces/Drag exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 57 physics/forces/Force exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 58 physics/forces/Repulsion exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 59 physics/forces/RotationalDrag exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 60 physics/forces/RotationalSpring exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 61 physics/forces/Spring exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 62 physics/forces/VectorField exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 63 physics/integrators/SymplecticEuler exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 64 surfaces/CanvasSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 65 surfaces/ContainerSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 66 surfaces/FormContainerSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 67 surfaces/ImageSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 68 surfaces/InputSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 69 surfaces/SubmitInputSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 70 surfaces/TextareaSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 71 surfaces/VideoSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 72 transitions/CachedMap exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 73 transitions/Easing exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 74 transitions/MultipleTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 75 transitions/SnapTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 76 transitions/SpringTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 77 transitions/Transitionable exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 78 transitions/TransitionableTransform exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 79 transitions/TweenTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 80 transitions/WallTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 81 utilities/KeyCodes exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 82 utilities/Timer exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 83 utilities/Utility exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 84 views/ContextualView exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 85 views/Deck exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 86 views/EdgeSwapper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 87 views/FlexibleLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 88 views/Flipper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 89 views/GridLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 90 views/HeaderFooterLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 91 views/Lightbox exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 92 views/RenderController exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 93 views/ScrollContainer exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 94 views/Scroller exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 95 views/Scrollview exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 96 views/SequentialLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 97 widgets/NavigationBar exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 98 widgets/Slider exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 99 widgets/TabBar exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 100 widgets/ToggleButton exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    ok 101 No error returned.
+    ok 102 fetchFamous returned object
+    not ok 103 core/Context exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 104 core/ElementAllocator exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 105 core/Engine exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 106 core/Entity exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 107 core/EventEmitter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 108 core/EventHandler exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 109 core/Group exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 110 core/Modifier exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 111 core/OptionsManager exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 112 core/RenderNode exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 113 core/Scene exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 114 core/SpecParser exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 115 core/Surface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 116 core/Transform exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 117 core/View exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 118 core/ViewSequence exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 119 events/EventArbiter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 120 events/EventFilter exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 121 events/EventMapper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 122 inputs/Accumulator exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 123 inputs/DesktopEmulationMode exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 124 inputs/FastClick exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 125 inputs/GenericSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 126 inputs/MouseSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 127 inputs/PinchSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 128 inputs/RotateSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 129 inputs/ScaleSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 130 inputs/ScrollSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 131 inputs/TouchSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 132 inputs/TouchTracker exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 133 inputs/TwoFingerSync exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 134 math/Matrix exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 135 math/Quaternion exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 136 math/Random exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 137 math/Utilities exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 138 math/Vector exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 139 modifiers/Draggable exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 140 modifiers/Fader exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 141 modifiers/ModifierChain exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 142 modifiers/StateModifier exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 143 physics/PhysicsEngine exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 144 physics/bodies/Body exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 145 physics/bodies/Circle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 146 physics/bodies/Particle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 147 physics/bodies/Rectangle exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 148 physics/constraints/Collision exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 149 physics/constraints/Constraint exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 150 physics/constraints/Curve exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 151 physics/constraints/Distance exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 152 physics/constraints/Snap exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 153 physics/constraints/Surface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 154 physics/constraints/Wall exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 155 physics/constraints/Walls exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 156 physics/forces/Drag exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 157 physics/forces/Force exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 158 physics/forces/Repulsion exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 159 physics/forces/RotationalDrag exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 160 physics/forces/RotationalSpring exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 161 physics/forces/Spring exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 162 physics/forces/VectorField exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 163 physics/integrators/SymplecticEuler exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 164 surfaces/CanvasSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 165 surfaces/ContainerSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 166 surfaces/FormContainerSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 167 surfaces/ImageSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 168 surfaces/InputSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 169 surfaces/SubmitInputSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 170 surfaces/TextareaSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 171 surfaces/VideoSurface exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 172 transitions/CachedMap exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 173 transitions/Easing exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 174 transitions/MultipleTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 175 transitions/SnapTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 176 transitions/SpringTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 177 transitions/Transitionable exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 178 transitions/TransitionableTransform exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 179 transitions/TweenTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 180 transitions/WallTransition exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 181 utilities/KeyCodes exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 182 utilities/Timer exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 183 utilities/Utility exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 184 views/ContextualView exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 185 views/Deck exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 186 views/EdgeSwapper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 187 views/FlexibleLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 188 views/Flipper exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 189 views/GridLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 190 views/HeaderFooterLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 191 views/Lightbox exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 192 views/RenderController exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 193 views/ScrollContainer exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 194 views/Scroller exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 195 views/Scrollview exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 196 views/SequentialLayout exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 197 widgets/NavigationBar exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 198 widgets/Slider exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 199 widgets/TabBar exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    not ok 200 widgets/ToggleButton exists.
+      ---
+        operator: equal
+        expected: 'string'
+        actual:   'undefined'
+      ...
+    ok 201 No error returned
+    ok 202 commonjs is of type object
+    ok 203 No error returned
+    ok 204 Top level file exists: core
+    ok 205 Top level file exists: index.js
+    ok 206 Top level file exists: inputs
+    ok 207 Top level file exists: events
+    ok 208 Top level file exists: math
+    ok 209 Top level file exists: modifiers
+    ok 210 Top level file exists: package.json
+    ok 211 Top level file exists: physics
+    ok 212 Top level file exists: surfaces
+    ok 213 Top level file exists: transitions
+    ok 214 Top level file exists: utilities
+    ok 215 Top level file exists: views
+    ok 216 Top level file exists: widgets
+    not ok 217 test/test.js
+      ---
+        exit:     ~
+        timedOut: true
+        signal:   SIGTERM
+        command:  |
+          "c:\dev\nodejs\node.exe test.js"
+      ...
+    
+    1..217
+    # tests 217
+    # pass  20
+    # fail  197
+    
+total ................................................ 28/246
+
+not ok
